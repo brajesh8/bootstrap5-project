@@ -1,0 +1,106 @@
+@media (max-width : 1030px){
+    /* Home Css */
+    .home .home-banner .home-banner-1,
+    .home .home-banner .home-banner-2{
+        background-position: 65% center;
+        min-height: 550px;
+    }
+    .home .home-banner .home-banner-text{
+        transform: translate(-80%, -50%);
+    }
+
+    /* offer css */
+    .offers .offer-box .offer-info .heading-bigger{
+        font-size: 3rem;
+    }
+
+    .special .countdown-container .countdown-counter li{
+        padding : 1.5rem 1rem;
+    }
+
+    .special .countdown-container{
+        padding-top : 1rem;
+        padding-bottom:5rem;
+    }
+}
+
+@media (max-width: 991px){
+    /* Home css */
+   
+    .home .home-banner .home-banner-text{
+        transform: translate(-66%, -50%);
+    }
+
+    .testimonial .carousel-control-prev{
+        left : -1.75rem;
+    }
+    
+    .testimonial .carousel-control-next{
+        right : -1.75rem;
+    }
+}
+
+@media (max-width : 767px){
+    /* For Regular Phone */
+    /* Home CSS */
+    .home .home-banner-1, .home .home-banner-2{
+        background-position: 50% center;
+        min-height: 450px;
+    }
+
+    .home .home-banner .home-banner-text{
+        transform: translate(-50%, -50%);
+    }
+
+    .home .home-banner .home-banner-text h1{
+        font-size: 3rem;
+    }
+
+    .home .home-banner .home-banner-text h2{
+        font-size: 1.2rem;
+    }
+
+    .home .home-banner .home-banner-text .btn-danger{
+        padding : 0.5rem 1.5rem;
+    }
+
+    .home .slider-icon{
+        font-size : 2rem;
+    }
+
+    .products .up_to_off h2{
+        font-size: 0.75rem;
+    }
+
+    .special{
+        padding : 4rem 0;
+    }
+
+    .special .countdown-container .countdown-counter li{
+        padding: 1rem;
+        width: 20%;
+    }
+
+    .testimonial .testimonial-wrapper{
+        padding: 1rem;
+    }
+
+    .testimonial .carousel-control-prev , .testimonial .carousel-control-next{
+        display: none;
+    }
+    
+   
+}
+
+@media (max-width : 330px){
+    /* SMALL PHONE */
+
+    /* Home CSS */
+    .home .home-banner .home-banner-text h2{
+        font-size: 1rem;
+    }
+
+    .products .up_to_content h2{
+        font-size: 0.625rem;
+    }
+}
